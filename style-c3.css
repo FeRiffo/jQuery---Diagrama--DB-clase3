@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700;900&family=Raleway:ital,wght@0,200;0,300;0,600;0,900;1,300;1,600;1,900&display=swap');
+body{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
+
+#main{
+    width: 990px;
+    margin: 30px auto;
+}
+.art-1, .art-2, .art-3{
+    margin: 5px;
+}
+.art-1{
+    width: 320px;
+    height: 600px;
+    background-color: coral;
+    float: left;
+}
+.art-1 p{
+    color: azure;
+    padding: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+
+}
+.art-2 p{
+    color: azure;
+    padding: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+
+}
+.art-3 p{
+    color: azure;
+    padding: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+
+}
+.art-2{
+    width: 320px;
+    height: 600px;
+    background-color: chartreuse;
+    float: right;
+}
+.art-3{
+    width: 320px;
+    height: 600px;
+    background-color: rgb(0, 76, 255);
+    float: right;
+    background: url(../img/messi.jpg) -400px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
+    font-weight: 800;
+    background-color: brown;
+    color: gold;
+    text-align: center;
+}
+
+.txt-h2{
+    background-color: aliceblue;
+    color: darkblue;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 200;
+}

@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    width: 990px;
+    height: 400px;
+    margin: 200px auto;
+    background: url(../img/ballena.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
